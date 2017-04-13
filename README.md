@@ -12,10 +12,15 @@
 
 3. Kemudian buat databasenya, misal di mysql, buat database di mysql nya
 
-4. Jalankan composer
-   php artisan migrate
+4. buat file .env di dalam root
 
-5. Selamat mencoba
+5. Jalankan composer
+   composer update
+   php artisan migrate
+   php artisan key:generate
+   php artisan chace:clear
+
+6. Selamat mencoba
 
 #########################
 CP: Erfian Junianto
